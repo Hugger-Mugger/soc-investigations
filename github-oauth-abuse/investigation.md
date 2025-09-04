@@ -104,7 +104,7 @@ This investigation confirms that GitHub OAuth token abuse is a scalable and stea
 - Audit log correlation  
 - Response planning and prevention
 
-> “As a SOC analyst candidate, I don’t just monitor dashboards — I investigate, validate, and defend using structured reasoning and public intelligence.”
+> “As a SOC analyst candidate, I don’t just monitor dashboards — I try to investigate, validate, and defend using structured reasoning and public intelligence.”
 
 ---
 
