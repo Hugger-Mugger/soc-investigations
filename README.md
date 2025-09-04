@@ -10,3 +10,5 @@ Welcome to my portfolio of technical investigations, written from a SOC analyst 
 ## About Me
 
 I'm a SOC analyst candidate focused on modular detection logic, cloud security, and agentic AI workflows. This repo showcases how I think, investigate, and respond to threats.
+
+Note: Please be patience, I will keep updating here whenever there is any changes in repo. Thank you.
