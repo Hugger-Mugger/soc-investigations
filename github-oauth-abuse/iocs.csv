@@ -1,0 +1,6 @@
+Type,Value
+Domain,malicious-ci[.]net
+IP,185.203.119.45
+File,.github/workflows/build.yml
+Token,ghp_xxx... (redacted)
+Behavior,Repo clone + workflow edit
