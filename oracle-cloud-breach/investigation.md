@@ -74,7 +74,7 @@ While I don’t have access to Oracle’s internal systems, the consistency betw
 
 ## 6. Phase 4: Detection Logic
 
-See [`detection-logic.txt`](./detection-logic.txt) for full KQL query.
+See [`detection-logic.kql`](./detection-logic.kql) for full KQL query.
 
 ---
 
