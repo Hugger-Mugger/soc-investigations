@@ -1,0 +1,7 @@
+
+CloudAppEvents
+| where AppName == "Oracle Identity Manager"
+| where ActivityType == "CredentialAccess"
+| where Resource contains "JKS" or "LDAP"
+| where CallerIpAddress !in ("trusted IP ranges")
+| where Timestamp between (datetime(2025-02-01) .. datetime(2025-03-21))
