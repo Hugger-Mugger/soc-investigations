@@ -1,0 +1,13 @@
+// Detection Logic: GitHub OAuth Token Abuse
+// Written in KQL for GitHub audit log ingestion in Microsoft Sentinel
+
+GitHubAuditLogs
+| where Action == "repo.clone"
+| where ActorIpAddress !in ("trusted IP ranges")
+| where RepositoryVisibility == "private"
+| where Timestamp between (datetime(2025-08-01) .. datetime(2025-08-31))
+
+GitHubAuditLogs
+| where Action == "workflow.edit"
+| where Actor != "automation-bot"
+| where Timestamp between (datetime(2025-08-01) .. datetime(2025-08-31))
